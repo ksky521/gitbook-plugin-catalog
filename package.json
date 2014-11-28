@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-catalog",
+  "description": "Add catalog to your Gitbook",
+  "main": "index.js",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Theo Wang",
+    "email": "ksky521@gmail.com"
+  },
+  "engines": {
+    "gitbook": "*"
+  },
+  "homepage": "https://github.com/ksky521/gitbook-plugin-catalog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksky521/gitbook-plugin-catalog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ksky521/gitbook-plugin-catalog/issues"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "underscore": "*"
+  },
+  "readmeFilename": "README.md"
+}
