@@ -1,19 +1,15 @@
 (function(window, document, $) {
     $(document).ready(function() {
-        $('#theo-nav-btn').click(function() {
+        $(document).on('click', '#theo-nav-btn', function() {
             $('#theo-content').toggle();
-        });
-        $('#theo-content a').click(function(){
+        }).on('click', '#theo-content a', function() {
             $('#theo-content').hide();
-        });
-        $('#theo-top-btn').click(function(e) {
+        }).on('click', '#theo-top-btn', function(e) {
             $('.body-inner').animate({
                 scrollTop: 0
-            }, 800);
+            }, 'fast');
             e.stopPropagation();
         });
     });
 
 }(window, document, jQuery))
-
-
