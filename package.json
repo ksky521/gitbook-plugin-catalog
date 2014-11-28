@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-catalog",
   "description": "Add catalog to your Gitbook",
   "main": "index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "author": {
     "name": "Theo Wang",
